@@ -14,6 +14,7 @@ find_package(OpenNI2 REQUIRED)
 
 add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/elasticfusionpublic/Core/src")
 add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/caffe_semanticfusion")
+include_directories("${CMAKE_CURRENT_SOURCE_DIR}/elasticfusionpublic/Core/src")
 
 file(GLOB_RECURSE srcs src/*.cpp)
 file(GLOB_RECURSE cuda src/*.cu)
