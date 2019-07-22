@@ -97,17 +97,15 @@ SemanticFusion is freely available for non-commercial use only.  Full terms and 
 
 # 5. Notes #
 
-*** Performance vs. paper ***
+***Performance vs. paper***
 
 This system has been re-based to the open-source version of ElasticFusion from an internal version.   As mentioned in its README:
 
-*
-A substantial amount of refactoring was carried out in order to open source this system, including rewriting a lot of functionality to avoid certain licenses and reduce dependencies. Although great care was taken during this process, it is possible that performance regressions were introduced and have not yet been discovered.
-*
+*A substantial amount of refactoring was carried out in order to open source this system, including rewriting a lot of functionality to avoid certain licenses and reduce dependencies. Although great care was taken during this process, it is possible that performance regressions were introduced and have not yet been discovered.*
 
 However, we re-validated the RGBD-SF on the NYU test set using this public implementation and the results where very similar (58.8% class average, 67.4% pixel avg.).
 
-*** Colour scheme ***
+***Colour scheme***
 
 The colour scheme used for semantic classes is given in the ```class_colour_scheme.data``` file.  As an easy lookup, the legend is uploaded in this project.
 
