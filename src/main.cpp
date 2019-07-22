@@ -66,7 +66,7 @@ int main(int argc, char *argv[])
   // This is for the RGB-D network
   caffe.Init("../caffe_semanticfusion/models/nyu_rgbd/inference.prototxt","../caffe_semanticfusion/models/nyu_rgbd/inference.caffemodel");
   // This is for the RGB network
-  //caffe.Init("../caffe/models/nyu_rgb/inference.prototxt","../caffe/models/nyu_rgb/inference.caffemodel");
+  //caffe.Init("../caffe_semanticfusion/models/nyu_rgb/inference.prototxt","../caffe_semanticfusion/models/nyu_rgb/inference.caffemodel");
   const int num_classes = caffe.num_output_classes();
   std::cout<<"Network produces "<<num_classes<<" output classes"<<std::endl;
   // Check the class colour output and the number of classes matches
